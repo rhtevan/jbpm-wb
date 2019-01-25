@@ -173,10 +173,14 @@
       <groupId>org.kie.workbench</groupId>
       <artifactId>kie-wb-common-ala-wildfly-provider</artifactId>
     </dependency>
+
+<!-- Exclude this module which failed to build after required fabric8 k8s client lib upgrade to 4.1.1
+     Related JIRA JBPM-7834: Provide OpenShiftStartupStrategy - WB Integration
     <dependency>
       <groupId>org.kie.workbench</groupId>
       <artifactId>kie-wb-common-ala-openshift-provider</artifactId>
     </dependency>
+-->
 
     <dependency>
       <groupId>org.uberfire</groupId>
